@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <title>Code Editor</title>
+</head>
+<body>
+
+  <div class="container mt-4">
+    <div class="code-editor">
+      <div class="code-toolbar bg-light p-2">
+        <button id="copyBtn" class="btn btn-primary mr-2">Copy</button>
+        <button id="saveBtn" class="btn btn-success mr-2">Save</button>
+        <button id="lockBtn" class="btn btn-danger">Lock</button>
+      </div>
+      <div id="codeArea" class="code-area" contenteditable="true">
+        //Write here...
+      </div>
+    </div>
+  </div>
+
+   
+  <script src="script.js"></script>
+</body>
+</html>
